@@ -7,7 +7,7 @@ import {
 } from 'vue-router'
 
 import Home from '@/views/home.vue'
-import Vuex from '@/views/vuex.vue'
+import Store from '@/views/store.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -16,9 +16,9 @@ const routes: Array<RouteRecordRaw> = [
     component: Home
   },
   {
-    path: '/vuex',
-    name: 'Vuex',
-    component: Vuex
+    path: '/store',
+    name: 'Store',
+    component: Store
   },
   {
     path: '/axios',

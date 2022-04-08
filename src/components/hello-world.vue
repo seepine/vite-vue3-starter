@@ -6,7 +6,7 @@ const props = withDefaults(defineProps<{ msg: string; tips?: string }>(), {
   tips: 'this is default msg'
 })
 const emit = defineEmits<{
-  (event: 'change', p_count: number): void
+  (event: 'change', count: number): void
 }>()
 
 const count = ref(0)
@@ -42,18 +42,9 @@ const handleChange = () => {
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
-  <p>
-    <a href="/vuex"> Vuex </a>
-    |
-    <a href="/axios">Axios</a>
-  </p>
 </template>
 
 <style scoped>
-a {
-  color: #42b983;
-}
-
 label {
   margin: 0 0.5em;
   font-weight: bold;

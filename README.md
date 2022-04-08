@@ -16,8 +16,7 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 - 构建工具：Vite 2.x
 - 前端框架：Vue 3.x
 - 路由工具：Vue Router 4.x
-- 状态管理：Vuex 4.x
-- UI 框架：Element Plus
+- 状态管理：Pinia 2.x
 - CSS 预编译：Sass
 - HTTP 工具：Axios
 - Git Hook 工具：husky + lint-staged
